@@ -1,0 +1,22 @@
+.main{
+    height: 300px;
+    .flex{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        h2{
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+        h3{
+            font-size: 30px;
+            font-weight: 900;
+            background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.main{
+    margin-left: 180px;
+    margin-right: 180px;
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    input{
+        width: 200px;
+        height: 30px;
+        border:0px;
+        border-bottom:2px solid black;
+        &:hover{
+            border:0px;
+            border-bottom:2px solid black;
+        }
+    }
+    .line{
+        border-bottom:1px solid rgb(179, 169, 169);
+        width: 1050px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

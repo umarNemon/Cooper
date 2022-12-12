@@ -1,0 +1,52 @@
+.main{
+  background-image: url('./BG.jpg');
+  background-size: cover;
+  height: 600px;
+  color: #ffffff;
+.title {
+    margin-left: 180px;
+    margin-top: 80px;
+    .line {
+      margin-top: 50px;
+      width: 500px;
+      border-bottom: 1px solid #ffffff;
+    }
+    h3 {
+      font-family: 'Mont';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 96.4%;
+      margin-top: 30px;
+    }
+    .prices{
+      margin-top: 30px;
+    }
+    .price {
+      font-weight: 400;
+      font-size: 30px;
+    }
+    .priceNumber {
+      font-weight: 800;
+      font-size: 30px;
+      margin-left: 80px;
+    }
+    .btnBuy{
+      margin-top: 30px;
+      border: 1px solid #FFFFFF;
+      background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+      width: 280px;
+      height: 30px;
+      text-align: center;
+      padding-top: 10px;
+      cursor: pointer;
+    }
+  }
+  h1 {
+    font-family: 'Lighthaus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 74.9%;
+  }
+}
