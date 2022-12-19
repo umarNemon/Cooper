@@ -1,0 +1,50 @@
+.main{
+    margin-left: 160px;
+    margin-top: 30px;
+    .imgMain{
+       position: relative;
+       width: 500px;
+       height: 180px;
+       .img{
+        width: 100%;
+        height: 100%;
+       }
+        .dark{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: rgba(117, 105, 105, 0.623);
+            opacity: .5;
+            
+        }
+        .imgDate{
+         position: absolute;
+         top: 0px;
+         left: 411px;
+        }
+        h4{
+            position:absolute;
+            top: 150px;
+            left: 70px;
+            color:white;
+            font-size: 20px;
+        }
+    }
+    p{
+        margin-top: 20px;
+        width: 500px;
+    }
+    h3{
+        margin-top: 20px;
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}
