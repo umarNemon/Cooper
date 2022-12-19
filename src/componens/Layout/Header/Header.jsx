@@ -16,7 +16,7 @@ function Header(props) {
           <Link to='/' > <img width={120} src="/img/icons/logo.png" alt="" /></Link> 
           </li>
           <li><Link className={style.link} to="/catalog">Каталог</Link></li>
-          <li>Новости</li>
+          <li><Link className={style.link} to="/news">Новости</Link></li>
           <li>Доставка</li>
           <li> <Link to="/about" className={style.link}>О нас</Link></li>
           <li>Контакты</li>
