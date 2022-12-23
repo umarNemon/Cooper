@@ -30,7 +30,7 @@ function Header(props) {
               <img src="/img/icons/user.png" alt="" />
             </li>
             <li>
-              <img src="/img/icons/shopping.png" alt="" />
+            <Link to="/basket" className={style.link}>  <img src="/img/icons/shopping.png" alt="" /></Link>
             </li>
           </ul>
         </div>

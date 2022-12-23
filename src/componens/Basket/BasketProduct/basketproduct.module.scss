@@ -1,0 +1,34 @@
+.main{
+    margin-left: 180px;
+    margin-bottom: 100px;
+    .title{
+        margin-top: 15px;
+        color:rgb(145, 137, 137);
+        .titleTwo{
+            margin-left: 330px;
+        }
+        .titleThree{
+            margin-left: 150px;
+        }
+    }
+    .line{
+        margin-top: 10px;
+        border-bottom: 1px solid rgb(189, 176, 176);
+        width: 700px;
+        margin-bottom: 10px;
+    }
+}
+.product{
+    display: flex;
+    align-items:center;
+    h3{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .price{
+        margin-left: 150px;
+    }
+}
+.mainProduct{
+    margin-top: 20px;
+}

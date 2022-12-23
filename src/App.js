@@ -4,7 +4,7 @@ import Mainpage from './componens/MainPage/Mainpage';
 import AboutHeader from './componens/About/Header/AboutHeader'
 import Catalog from './componens/Catalog/Catalog';
 import News from './componens/news/News';
-
+import Basket from './componens/Basket/Basket';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Route path='/about' element={<AboutHeader/>}/>
       <Route path='/catalog' element={<Catalog/>}/>
       <Route path='/news' element={<News/>}/>
+      <Route path='/basket' element={<Basket/>}/>
     </Routes>
     </div>
   );

@@ -19,7 +19,8 @@ function Product(){
                 {
                     array.map((obj) =>(
                     <div className={style.img_title}>
-                        <img width={300} height={350} src={obj.imgUrl} alt="" />
+                        <img  src={obj.imgUrl} alt="" />
+                        <div className={style.overflow}></div>
                         <p>{obj.title}</p>
                     </div>
                     ))
