@@ -17,7 +17,7 @@ const Search = () => {
 
           <div className={style.sorting}> <span onClick={chengSorting}> Сортировка &#9660;</span> 
             <div className={style.sortingChild}>
-              {sortingOpen ? <Sorting/> : null}
+              {sortingOpen && <Sorting/>}
               </div>
              </div>
            
