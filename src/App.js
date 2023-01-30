@@ -5,6 +5,7 @@ import AboutHeader from './componens/About/Header/AboutHeader'
 import Catalog from './componens/Catalog/Catalog';
 import News from './componens/news/News';
 import Basket from './componens/Basket/Basket';
+import Order from './componens/Order/Order';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path='/catalog' element={<Catalog/>}/>
       <Route path='/news' element={<News/>}/>
       <Route path='/basket' element={<Basket/>}/>
+      <Route path='/order' element={<Order/>}/>
     </Routes>
     </div>
   );

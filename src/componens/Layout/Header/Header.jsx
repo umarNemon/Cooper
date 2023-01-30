@@ -1,9 +1,7 @@
 import style from '../Header/header.module.scss';
+import Order from '../../Order/Order';
 import {Link} from 'react-router-dom'
 
-const plusBtn = () =>{
-    alert("Umar Ganiev")
-}
 const userBtn = () => {
     prompt("How old you?")
 }
@@ -26,8 +24,8 @@ function Header(props) {
             <li onClick={userBtn}>
               <img src="/img/icons/heart.png" alt="" />
             </li>
-            <li onClick={ plusBtn }>
-              <img src="/img/icons/user.png" alt="" />
+            <li >
+             <Link to="/order"><img src="/img/icons/user.png" alt="" /></Link> 
             </li>
             <li>
             <Link to="/basket" className={style.link}>  <img src="/img/icons/shopping.png" alt="" /></Link>

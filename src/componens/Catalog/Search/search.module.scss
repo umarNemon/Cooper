@@ -34,3 +34,14 @@
         z-index: 5;
     }
 }
+.input{
+    position: relative;
+}
+.iconsX{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 10px;
+    z-index: 5;
+    cursor: pointer;
+}
